@@ -9,6 +9,8 @@
 .container {
   max-width: 1550px;
   margin: auto;
+  position: relative;
+  z-index: 3;
 }
 
 img {
@@ -37,7 +39,7 @@ body .img {
   position: absolute;
   width: 100%;
   top: 0;
-  z-index: -1;
+  z-index: 1;
 }
 body .img img {
   position: relative;
